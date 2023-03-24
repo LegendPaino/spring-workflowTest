@@ -34,9 +34,9 @@ jobs:
       
       # Gradle 빌드
     - name: Build with Gradle
-      uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
+      uses: gradle/gradle-build-action@v2
       with:
-#         working-directory: ./server/EverybodyChachapark
+        working-directory: ./server/EverybodyChachapark
         arguments: build
         
       # 빌드한 결과물 zip로 압축
